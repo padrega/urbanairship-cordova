@@ -18,7 +18,9 @@
     <js-module name="UrbanAirship" src="www/UrbanAirship.js">
         <clobbers target="UAirship"/>
     </js-module>
-
+    <hook type="before_plugin_install" src="hooks/install_prerequisites.js" />
+    <hook type="before_plugin_install" src="hooks/unzip_google_service_config.js" />
+    <hook type="before_plugin_install" src="hooks/copy_google_service_config.js" />
     <!-- android -->
     <platform name="android">
         <config-file parent="/widget" target="res/xml/config.xml">
