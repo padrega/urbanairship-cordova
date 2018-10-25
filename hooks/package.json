@@ -1,0 +1,8 @@
+// 20181025105728
+// https://raw.githubusercontent.com/OutSystemsExperts/outsystems-phonegap-plugin-push/master/hooks/outsystems/package.json
+
+{
+  "dependencies": {
+    "adm-zip": "0.4.7"
+  }
+}
