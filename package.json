@@ -38,7 +38,7 @@
   "license": "Apache 2.0",
   "homepage": "https://github.com/urbanairship/urbanairship-cordova.git",
   "devDependencies": {
-    "jsdoc": "3.6.4",
+    "jsdoc": "3.6.6",
     "minami": "1.2.3"
   },
   "scripts": {
